@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="C6X02A" name="Spectrogram" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.Spectrogram" includeBinaryInAppConfig="1"
+              jucerVersion="4.0.1">
+  <MAINGROUP id="Md1Nit" name="Spectrogram">
+    <GROUP id="{CD80A44C-5F3C-9D5B-1191-46C299F85A06}" name="Source">
+      <FILE id="XCqkRV" name="SpectrogramComponent.cpp" compile="1" resource="0"
+            file="Source/SpectrogramComponent.cpp"/>
+      <FILE id="CZrOWn" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="FbBlVS" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="Spectrogram"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="Spectrogram"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="D:/Sean/Cpp/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <VS2010 targetFolder="Builds/VisualStudio2010">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="Spectrogram"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="Spectrogram"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="D:/Sean/Cpp/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2010>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="Spectrogram"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="Spectrogram"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="D:/Sean/Cpp/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="D:/Sean/Cpp/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
