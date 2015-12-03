@@ -11,6 +11,9 @@
 *.userprefs
 
 # Build results
+[Bb]uilds/VisualStudio2010/[Dd]ebug
+[Bb]uilds/VisualStudio2015/[Dd]ebug
+[Bb]uilds/VisualStudio2015/[Dd]ebug/Spectrogram.sdf
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
